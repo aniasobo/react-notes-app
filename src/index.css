@@ -21,7 +21,7 @@ p,
 ol,
 ul {
   margin: 0;
-  padding: 5%;
+  padding: 2%;
   text-align: center;
 }
 
@@ -33,4 +33,12 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.note {
+  border: 1px solid lightcoral;
+  border-radius: 5px;
+  text-align: left;
+  padding: 8px;
+  margin: 30px;
 }

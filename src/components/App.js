@@ -6,8 +6,17 @@ class App extends Component {
     super();
 
     this.state = {
-      text: ''
+      text: '',
+      notes: []
     }
+  }
+
+  submit() {
+    const { notes, text } = this.state;
+
+    notes.push({ text });
+
+    this.setState({ notes });
   }
 
   render() {
@@ -17,8 +26,15 @@ class App extends Component {
           <Form inline>
             <FormControl onChange={event => this.setState({ text: event.target.value })} /> 
             {' '}
-            <Button onClick={() => console.log(this.state)}>Add note</Button>
+            <Button onClick={() => this.submit()}>Add note</Button>
           </Form>
+          {
+            this.state.notes.map((note, index) => {
+              return (
+                <div key={index}>{note.text}</div>
+              )
+            })
+          }
       </div>
     )
   }

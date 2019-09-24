@@ -1,6 +1,12 @@
 **Custom copy tba, standard create-react-app README follows** 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Todo:
+
+- [ ] delete individual notes.
+- [ ] edit individual notes.
+- [ ] re-order notes.
+- [ ] Add local storage with cookies to any feature above.
+
 
 ## Available Scripts
 

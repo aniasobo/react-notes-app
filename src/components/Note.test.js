@@ -1,7 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme'; // mimic the mounting of the component onto the DOM
 import Note from './Note';
-import { isTSAnyKeyword, exportAllDeclaration } from '@babel/types';
 
 const props = { note: { text: 'test text' }}
 

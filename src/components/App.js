@@ -38,7 +38,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h2>Notes</h2>
+        <h2>My Ephemeral Local Storage Notes</h2>
           <Form inline>
             <FormControl onChange={event => this.setState({ text: event.target.value })} /> 
             {' '}

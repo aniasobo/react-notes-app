@@ -1,7 +1,9 @@
-**Custom copy tba, standard create-react-app README follows** 
+# Web app for your notes
 
-Todo:
+**Todo:**
 
+- [ ] refactor adding notes to work with return key instead of just Submit button click event
+- [ ] improve styles
 - [ ] delete individual notes.
 - [ ] edit individual notes.
 - [ ] re-order notes.
